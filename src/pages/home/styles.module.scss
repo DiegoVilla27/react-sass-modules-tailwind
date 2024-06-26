@@ -1,0 +1,12 @@
+form {
+  @apply flex flex-col gap-4 justify-center;
+  h1 {
+    @apply text-6xl text-center uppercase;
+  }
+  input {
+    @apply h-10 rounded-md border-none px-4 py-1 w-full;
+  }
+  button {
+    @apply h-10 rounded-md border-none px-4 py-1 w-full bg-black text-white cursor-pointer uppercase;
+  }
+}

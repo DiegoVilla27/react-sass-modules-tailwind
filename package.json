@@ -1,5 +1,5 @@
 {
-  "name": "react-sass-modules",
+  "name": "react-sass-modules-tailwind",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -30,6 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^7.14.1",
     "@typescript-eslint/parser": "^7.14.1",
     "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
     "babel-plugin-transform-import-meta": "^2.2.1",
     "babel-plugin-transform-vite-meta-env": "^1.0.3",
     "eslint": "^8.57.0",
@@ -42,8 +43,12 @@
     "jest-environment-jsdom": "^29.7.0",
     "jest-transform-stub": "^2.0.0",
     "lint-staged": "^15.2.7",
+    "postcss": "^8.4.38",
     "prettier": "^3.3.2",
     "react-test-renderer": "^18.3.1",
+    "sass": "^1.77.6",
+    "sass-loader": "^14.2.1",
+    "tailwindcss": "^3.4.4",
     "ts-jest": "^29.1.5",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
